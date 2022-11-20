@@ -1,1 +1,8 @@
+Name : Sourav Kumar Das
+Student ID : 213-15-4588
+Section : PC-F
+Department of Computer Science and Engineering (CSE)
+Daffodil International University
 
+Course : Object Oriented Programming (OOP) Lab 
+Course Code : CSE222
