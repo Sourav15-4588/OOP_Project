@@ -1,0 +1,61 @@
+1. Write a program to create a room class, the attributes of this class is roomno, roomtype, 
+roomarea and ACmachine. In this class the member functions are setdata and displaydata.
+
+2. Write a program create a class ‘simpleobject‘. Using constructor, display the message
+“Hello, simple object is created”.
+
+3. Write a program to give the example for ‘this’ operator.
+
+4. Write a program to give the example for ‘super’ keyword.
+
+5. Write a program to give the example for method overloading concepts.
+
+6. Create class named as ‘a’ and create a sub class ‘b’ which is extends from class ‘a’. Write 
+a program to give the example for method overriding concepts.
+
+7. Write a program to create a class named shape. In this class we have three sub classes 
+circle, triangle and square each class has two member function named draw () and erase (). 
+Create these using polymorphism concepts.
+
+8. Write a program to give a simple example for abstract class.
+
+9. Write a program to create interface A in this interface we have two method meth1 and 
+meth2. Implements this interface in another class named MyClass.
+
+10. Write a program to give example for multiple inheritance in Java.
+
+11. Write a program to create interface named test. In this interface the member function is 
+square. Implement this interface in arithmetic class. Create one new class called ToTestInt 
+in this class use the object of arithmetic class.
+
+12. Write a class called ColourChecking. Define a color with red = 193, green =255 and blue 
+= 183. No separate the rgb values. Find the Hue, saturation and brightness of this color.
+Formula is available here 
+(https://manifold.net/doc/mfd8/colors_as_hue_saturation_and_brightness.htm)
+
+13. Write a program to find the Fibonacci numbers using Recursion.
+
+14. Create class point with following instance variable and methods.
+Instance variable: private int x,y 
+Constructors : public Point(), Point(int x, int y) 
+Methods : public void setX(int x), setY(int y), setXY(int x, int y)
+Write a program to create a package named mypack and import it in point class.
+
+15. Create class box and box3d. box3d is extended class of box. The above two classes going 
+to fulfill following requirement
+i. Include constructor. 
+ii. set value of length, breadth, height
+iii. Find out area and volume.
+Note: Base class and sub classes have respective methods and instance variables.
+
+16. Write a program to give the example for association, aggregation and composition
+concepts.
+
+17. Write a program for example of try and catch block with finally clause. In this check 
+whether the given array size is negative or not.
+
+18. Write a program to describe usage of throws clause.
+
+19. Write a program for creation of user defined exception.
+
+20. Write a program to sort an ArrayList
