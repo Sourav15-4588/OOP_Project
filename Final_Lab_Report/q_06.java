@@ -1,3 +1,8 @@
+/* 
+6. Create class named as ‘a’ and create a sub class ‘b’ which is extends from class ‘a’. Write
+a program to give the example for method overriding concepts.
+*/
+
 public class a {
 
     String name="Sourav Kumar Das";
