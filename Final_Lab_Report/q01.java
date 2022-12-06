@@ -1,3 +1,7 @@
+/* 1. Write a program to create a room class, the attributes of this class is roomno, roomtype,
+roomarea and ACmachine. In this class the member functions are setdata and displaydata.
+*/
+
 import java.util.*;
 
 public class Room {
@@ -20,7 +24,7 @@ public class Room {
         System.out.println("AC Machine = "+this.ACmachine);
 
     }
-  
+  // copy right @Sourav
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Room r1 = new Room();
