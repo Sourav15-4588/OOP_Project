@@ -1,0 +1,7 @@
+Name: Sourav Kumar Das
+Student ID: 213-15-4588
+Dept: CSE
+University: Daffodil International University
+
+Project Title: CGPA Calculator
+details: 
