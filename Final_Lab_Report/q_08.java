@@ -1,3 +1,5 @@
+// 8. Write a program to give a simple example for abstract class.
+
 abstract class AbstractExample {
     public abstract void display();
     public void showData(){
