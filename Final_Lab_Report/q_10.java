@@ -1,3 +1,5 @@
+// 10. Write a program to give example for multiple inheritance in Java.
+
 public interface Aa {
     public int meth1(int a);
     public void meth2(int a);
