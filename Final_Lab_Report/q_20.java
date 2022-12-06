@@ -16,6 +16,7 @@ public class Arraysort {
         ob.sort(array,size);
         ob.show(array,size);
     }
+    
     private void sort(int ar[], int s){
         int temp;
         for(int i=0; i<s; i++){
@@ -28,6 +29,7 @@ public class Arraysort {
             }
         }
     }
+    // Copy right @Sourav
     private void show(int ar[], int s){
         System.out.print("Sorted Array : ");
         for(int i=0; i<s; i++){
