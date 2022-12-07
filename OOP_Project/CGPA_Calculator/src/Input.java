@@ -124,7 +124,7 @@ public class Input implements Machine {
         System.out.println("\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tStudent Name : "+name);
         System.out.println("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tStudent ID   : "+id);
         System.out.println("\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tYour Average CGPA is : " + df.format(Calculation(gradeSum, creditSum)));
-
+        System.out.println("\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRemarks : "+remarks(Calculation(gradeSum, creditSum)));
 
 
     }
@@ -143,6 +143,22 @@ public class Input implements Machine {
         return s;
     }
 
-
+    @Override
+public String remarks(double a){
+        if(a>4.00) return "Something Went Wrong";
+        else if(a==4.00) return "Extraordinary";
+        else if(a<4.00 && a>=3.85) return "Outstanding";
+        else if(a<3.85 && a>=3.75) return "Excellent";
+        else if(a<3.75 && a>=3.65) return "Grate";
+        else if(a<3.65 && a>=3.50) return "Very Good";
+        else if(a<3.50 && a>=3.25) return "Good";
+        else if(a<3.25 && a>=3.00) return "Average";
+        else if(a<3.00 && a>=2.75) return "Need Improvement";
+        else if(a<2.75 && a>=2.50) return "Not Good";
+        else if(a<2.50) return "Very Bad";
+        else return "Failed";
+}
+    
+    
 
 }
