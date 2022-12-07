@@ -2,7 +2,7 @@ import java.text.DecimalFormat;
 import java.util.*;
 
 
-public class Input implements Machine, Exit {
+public class Input implements Machine {
 
     public String[][] courseName=new String[12][15];
     public double[][] courseCredit=new double[12][15];
@@ -144,9 +144,4 @@ public class Input implements Machine, Exit {
     }
 
 
-
-    @Override
-    public void exit(){
-        System.out.println("\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tThank You");
-    }
 }
