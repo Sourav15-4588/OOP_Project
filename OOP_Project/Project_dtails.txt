@@ -5,3 +5,4 @@ University: Daffodil International University
 
 Project Title: CGPA Calculator
 details: 
+This a very simple calculator that calculate cgpa of students. very simple functions. Input your information and find the cgpa.
