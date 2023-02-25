@@ -20,8 +20,8 @@ public class ColourChecking {
 
         int m1=(ob.red+ob.green+Math.abs(ob.red-ob.green))/2;
         int M=(m1+ob.blue+Math.abs(m1 - ob.blue))/2;
-        int m2 = ob.red + ob.green - Math.abs(ob.red-ob.green)/2;
-        int m = m2 + ob.blue-Math.abs(m2 - ob.blue)/2;
+        int m2 = (ob.red + ob.green - Math.abs(ob.red-ob.green))/2;
+        int m = (m2 + ob.blue-Math.abs(m2 - ob.blue))/2;
          brightness=(M+m)/2;
         if(ob.red==ob.green && ob.green==ob.blue && ob.red==ob.blue){
             saturation=0;
