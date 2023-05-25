@@ -1,3 +1,7 @@
+// copy right to Sourav Kumar Das
+// Daffodil International University
+// ID 213-15-4588
+
 
 
 public class Main {
@@ -17,4 +21,8 @@ public class Main {
 
 
 }
+
+// copy right to Sourav Kumar Das
+// Daffodil International University
+// ID 213-15-4588
 
